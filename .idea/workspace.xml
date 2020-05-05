@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c3d765e8-9d71-4e84-8c88-125fe9ce4df2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/memoriais/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="251">
+              <caret line="174" selection-start-line="174" selection-end-line="174" />
+              <folding>
+                <element signature="e#0#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Procfile.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="31" selection-start-column="31" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MDRebuilder/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/memoriais/templates/memoriais/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1738">
+              <caret line="79" selection-start-line="79" selection-end-line="79" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/memoriais/templates/memoriais/download.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1078">
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>contact</find>
+      <find>navbar-brand</find>
+      <find>font-size</find>
+      <find>fa-stack</find>
+      <find>row text-center</find>
+      <find>href</find>
+      <find>src</find>
+      <find>src=&quot;</find>
+      <find>../</find>
+      <find>../../../</find>
+      <find>../../</find>
+      <find>% static</find>
+      <find>page-section</find>
+      <find>nav-item</find>
+      <find>fontawesome-free/css/fontawesome.css'</find>
+      <find>about</find>
+      <find>portfolio</find>
+      <find>/img/header</find>
+      <find>img</find>
+      <find>&lt;img</find>
+      <find>header-bg</find>
+      <find>static '../</find>
+      <find>static '../static/img/about</find>
+      <find>team</find>
+      <find>/team/</find>
+      <find>../static/css/</find>
+      <find>../static/img/</find>
+      <find>reconstituição</find>
+      <find>/static/memoriais/css/all.min.css</find>
+      <find>horario</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>upload</replace>
+      <replace>Upload</replace>
+      <replace>reconstituição</replace>
+      <replace>Reconstituição</replace>
+      <replace>contato</replace>
+      <replace>src=&quot;../../../bootstrap/</replace>
+      <replace>../</replace>
+      <replace>../../</replace>
+      <replace>{% static '../static/</replace>
+      <replace>projeto</replace>
+      <replace>justificativa</replace>
+      <replace>colaboradores</replace>
+      <replace>static '../static/img/projeto</replace>
+      <replace>../static/css/memoriais</replace>
+      <replace>../static/css/memoriais/</replace>
+      <replace>../static/memoriais/css/</replace>
+      <replace>../static/memoriais/js/</replace>
+      <replace>../static/memoriais/img/</replace>
+      <replace>reconstituicao</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/memoriais/templates/memoriais/upload.html" />
+        <option value="$PROJECT_DIR$/memoriais/LEITURA_CONVERSAO.py" />
+        <option value="$PROJECT_DIR$/startbootstrap-agency-gh-pages/vendor/bootstrap/css/bootstrap.min.css" />
+        <option value="$PROJECT_DIR$/startbootstrap-agency-gh-pages/vendor/fontawesome-free/css/all.min.css" />
+        <option value="$PROJECT_DIR$/startbootstrap-agency-gh-pages/index.html" />
+        <option value="$PROJECT_DIR$/memoriais/templates/memoriais/index.html" />
+        <option value="$PROJECT_DIR$/venv/Lib/site-packages/django/core/handlers/exception.py" />
+        <option value="$PROJECT_DIR$/memoriais/download.py" />
+        <option value="$PROJECT_DIR$/MDRebuilder/settings.py" />
+        <option value="$PROJECT_DIR$/memoriais/downloadFile.py" />
+        <option value="$PROJECT_DIR$/memoriais/saveFile.py" />
+        <option value="$PROJECT_DIR$/memoriais/shapefile.py" />
+        <option value="$PROJECT_DIR$/MDRebuilder/form.py" />
+        <option value="$PROJECT_DIR$/memoriais/admin.py" />
+        <option value="$PROJECT_DIR$/memoriais/models.py" />
+        <option value="$PROJECT_DIR$/memoriais/templatetags/meusFiltros.py" />
+        <option value="$PROJECT_DIR$/memoriais/poligono.py" />
+        <option value="$PROJECT_DIR$/memoriais/templates/memoriais/poligono.html" />
+        <option value="$PROJECT_DIR$/MDRebuilder/urls.py" />
+        <option value="$PROJECT_DIR$/memoriais/templates/memoriais/home.html" />
+        <option value="$PROJECT_DIR$/memoriais/templates/memoriais/download.html" />
+        <option value="$PROJECT_DIR$/memoriais/views.py" />
+        <option value="$PROJECT_DIR$/runtime.txt" />
+        <option value="$PROJECT_DIR$/Procfile.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MDRebuilder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MDRebuilder" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Sistemas de Informação\7°Período\TCC II\MDRebuilder\memoriais\static\memoriais" />
+      <recent name="E:\Sistemas de Informação\7°Período\TCC II\MDRebuilder\memoriais" />
+      <recent name="E:\Sistemas de Informação\7°Período\TCC II\MDRebuilder\memoriais\templates\memoriais" />
+      <recent name="E:\Sistemas de Informação\7°Período\TCC II\MDRebuilder\memoriais\templates" />
+      <recent name="E:\Sistemas de Informação\7°Período\TCC II\MDRebuilder\memoriais\static\bootstrap\css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Sistemas de Informação\7°Período\TCC II\MDRebuilder\memoriais" />
+      <recent name="E:\Sistemas de Informação\7°Período\TCC II\MDRebuilder\memoriais\templatetags" />
+      <recent name="E:\Sistemas de Informação\7°Período\TCC II\MDRebuilder\memoriais\templates\memoriais" />
+      <recent name="E:\Sistemas de Informação\7°Período\TCC II\MDRebuilder\startbootstrap-agency-gh-pages\vendor\bootstrap" />
+      <recent name="E:\Sistemas de Informação\7°Período\TCC II\MDRebuilder\startbootstrap-agency-gh-pages\vendor\fontawesome-free" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Runserver" type="PythonConfigurationType" factoryName="Python">
+      <module name="MDRebuilder" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="E:\Sistemas de Informação\7°Período\TCC II\MDRebuilder\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="runserver" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c3d765e8-9d71-4e84-8c88-125fe9ce4df2" name="Default Changelist" comment="" />
+      <created>1585875506333</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585875506333</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23931624" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32822758" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.26435536" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.55032825" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32932165" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/MDRebuilder/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/memoriais/templates/memoriais/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/memoriais/LEITURA_CONVERSAO.py" />
+    <entry file="file://$PROJECT_DIR$/bootstrap/vendor/bootstrap/css/bootstrap.css" />
+    <entry file="file://$PROJECT_DIR$/bootstrap/vendor/bootstrap/css/bootstrap.min.css" />
+    <entry file="file://$PROJECT_DIR$/bootstrap/vendor/fontawesome-free/css/all.min.css" />
+    <entry file="file://$PROJECT_DIR$/bootstrap/css/agency.min.css" />
+    <entry file="file://$PROJECT_DIR$/startbootstrap-agency-gh-pages/css/fontawesome-free/all.min.css" />
+    <entry file="file://$PROJECT_DIR$/startbootstrap-agency-gh-pages/css/bootstrap/bootstrap.min.css" />
+    <entry file="file://$PROJECT_DIR$/bootstrap/index2.html" />
+    <entry file="file://$PROJECT_DIR$/bootstrap/gulpfile.js" />
+    <entry file="file://$PROJECT_DIR$/bootstrap/index.html" />
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/core/handlers/exception.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="127" column="14" selection-start-line="127" selection-start-column="14" selection-end-line="127" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/memoriais/static/bootstrap/css/bootstrap.min.css" />
+    <entry file="file://$PROJECT_DIR$/memoriais/static/bootstrap/css/all.min.css" />
+    <entry file="file://$PROJECT_DIR$/memoriais/static/bootstrap/css/brands.css" />
+    <entry file="file://$PROJECT_DIR$/memoriais/static/bootstrap/css/v4-shims.min.css" />
+    <entry file="file://$PROJECT_DIR$/memoriais/static/bootstrap/css/v4-shims.css" />
+    <entry file="file://$PROJECT_DIR$/memoriais/static/bootstrap/css/svg-with-js.min.css" />
+    <entry file="file://$PROJECT_DIR$/memoriais/static/bootstrap/css/svg-with-js.css" />
+    <entry file="file://$PROJECT_DIR$/memoriais/static/bootstrap/css/solid.min.css" />
+    <entry file="file://$PROJECT_DIR$/memoriais/static/bootstrap/css/solid.css" />
+    <entry file="file://$PROJECT_DIR$/memoriais/static/bootstrap/css/regular.min.css" />
+    <entry file="file://$PROJECT_DIR$/memoriais/static/bootstrap/css/regular.css" />
+    <entry file="file://$PROJECT_DIR$/memoriais/static/bootstrap/css/fontawesome.min.css" />
+    <entry file="file://$PROJECT_DIR$/memoriais/static/bootstrap/index.html" />
+    <entry file="file://$PROJECT_DIR$/memoriais/static/bootstrap/css/fontawesome.css" />
+    <entry file="file://$PROJECT_DIR$/memoriais/saveFile.py" />
+    <entry file="file://$PROJECT_DIR$/memoriais/downloadFile.py" />
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/memoriais/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/memoriais/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/core/handlers/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2222">
+          <caret line="112" selection-start-line="112" selection-end-line="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/memoriais/shapefile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/memoriais/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/memoriais/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/memoriais/poligono.py" />
+    <entry file="file://$PROJECT_DIR$/memoriais/static/memoriais/css/all.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/memoriais/static/memoriais/css/all.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MDRebuilder/form.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/memoriais/templatetags/meusFiltros.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MDRebuilder/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MDRebuilder/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/memoriais/templates/memoriais/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1738">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/memoriais/templates/memoriais/download.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1078">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runtime.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/memoriais/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="174" selection-start-line="174" selection-end-line="174" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" selection-start-column="31" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

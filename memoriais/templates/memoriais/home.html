@@ -1,0 +1,461 @@
+<!--<!doctype html>-->
+{% load static %}
+
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>MD Rebuilder</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="{% static '../static/memoriais/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static '../static/memoriais/css/fontawesome.min.css' %}" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="{% static '../static/memoriais/css/all.css' % }" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+  <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="{% static '../static/memoriais/css/agency.min.css' %}" rel="stylesheet">
+
+  <style>
+    #opcao {
+      height: 65px;
+    }
+  </style>
+
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">MD Rebuilder</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target=
+              "#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav text-uppercase ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#reconstituicao">Reconstituição</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#projeto">Projeto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#justificativa">Justificativa</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#colaboradores">Colaboradores</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="masthead">
+    <div class="container">
+      <div class="intro-text">
+        <div class="intro-lead-in">Seu Projeto com um clique!</div>
+        <div class="intro-heading">Reconstituição de Memoriais Descritivos</div>
+        <br/><br/>
+
+        <form method="post" enctype="multipart/form-data" name="upload">
+
+          {% csrf_token %}
+
+          <input class="btn btn-secondary btn-block btn-xl js-scroll-trigger", type="file", name="document"/>
+          <button class="btn btn-warning btn-block btn-xl js-scroll-trigger", type="submit">Carregar arquivo</button>
+
+        </form>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- Reconstituição -->
+  <section class="page-section" id="reconstituicao">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">Reconstituição</h2>
+          <h3 class="section-subheading text-muted">Saiba como funciona passo-a-passo</h3>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-4">
+          <span class="fa-stack fa-4x">
+            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+            <i class="fas fa-upload fa-stack-1x fa-inverse"></i>
+          </span>
+          <h4 class="service-heading">Upload</h4>
+          <p class="text-muted">Selecione e carregue seu aquivivo de memorial descritivo em extensão .pdf </p>
+        </div>
+        <div class="col-md-4">
+          <span class="fa-stack fa-4x">
+            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+          </span>
+          <h4 class="service-heading">Padronização</h4>
+          <p class="text-muted">O arquivo carregado é processado com técnicas de busca por expressões regulares e
+                                padronizados em formato para utilização em softwares de geoprocessamento.</p>
+        </div>
+        <div class="col-md-4">
+          <span class="fa-stack fa-4x">
+            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+            <i class="fas fa-download fa-stack-1x fa-inverse"></i>
+          </span>
+          <h4 class="service-heading">Download</h4>
+          <p class="text-muted">Após serem padronizados, os dados processados são disponibilizados em arquivos
+                                de extensão.txt para download.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projeto -->
+  <section class="bg-light page-section" id="projeto">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">Projeto</h2>
+          <h3 class="section-subheading text-muted">Conheça um pouco das etapas deste projeto de pesquisa</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <ul class="timeline">
+            <li>
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="{% static '../static/memoriais/img/projeto/1.jpg' %}" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>Fev - 2020</h4>
+                  <h4 class="subheading">Tema</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">Estudo de técnicas para reconhecimento de padrões e expressões regulares
+                                        utilizando como base de pesquisa arquivos de memoriais descritivos.</p>
+                </div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="{% static '../static/memoriais/img/projeto/2.jpg' %}" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>Mar - 2020</h4>
+                  <h4 class="subheading">Problema</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">Como usar recursos de sistemas de informação para otimizar a leitura e
+                                        padronização de coordenadas geográficas e disponibilizá-las para uso em softwares
+                                        de geoprocessamento a partir de memoriais descritivos em arquivos PDF?</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="{% static '../static/memoriais/img/projeto/3.jpg' %}" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>Abr - 2020</h4>
+                  <h4 class="subheading">Objetivo Geral</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">Automatizar a recuperação de coordenadas geográficas presentes em memoriais
+                                        descritivos para uso em softwares de geoprocessamento.</p>
+                </div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="{% static '../static/memoriais/img/projeto/4.jpg' %}" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>Mai - 2020</h4>
+                  <h4 class="subheading">Objetivos Específicos</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted"> • Analisar padrões de coordenadas geográficas mediante técnica RegEx</p>
+                  <p class="text-muted"> • Desenvolver site para upload de memoriais descritivos de modo que apresente
+                                          o mapa das coordenadas recuperadas</p>
+                  <p class="text-muted"> • Disponibilizar arquivo com os pontos recuperados e o mapa de coordenadas em
+                                          formato específico para softwares de geoprocessamento.</p>
+                </div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-image">
+                <h4>Utilize e
+                  <br>comente nosso
+                  <br>projeto!
+                </h4>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Justificativa -->
+  <section class="page-section" id="justificativa">
+    <div class="col-xl-11">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">Justificativa</h2>
+          <h3 class="section-subheading text-muted">Veja o porque deste projeto de pesquisa.</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="{% static '../static/memoriais/img/colaboradores/IMG02.jpg' %}" alt="">
+            <div class="portfolio-caption">
+              <h4>Pedro Luã</h4>
+              <p class="col text-muted">
+                Acadêmico de Sistemas de Informação - 7°Período - FASA
+              </p>
+              <ul class="list-inline social-buttons">
+                <li class="list-inline-item">
+                  <a href="https://www.linkedin.com/in/pedrolgviegas/" target="_blank">
+                    <i class="fab fa-linkedin-in" style="padding: 15px"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://www.instagram.com/pedrolgviegas/?hl=pt-br" target="_blank">
+                    <i class="fab fa-instagram" style="padding: 15px"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-9" align="justify" style="text-indent: 50px">
+          <p class="text-muted">
+            Ao observar a dificuldade para reconstituir um memorial descritivo (pegar as coordenadas e topologias
+            presentes no documento e padronizar de forma que se consiga obter o polígono novamente), notou-se a
+            viabilidade para elaborar um projeto de pesquisa para automatizar a recuperação das coordenadas e
+            padronizá-las, criando um produto final (MD Rebuilder) que ao receber o arquivo digitalizado consiga
+            devolvê-lo de forma que se utilize em softwares de geoprocessamento.</p>
+          <p class="text-muted">
+            Tendo em vista que todo processo pode ser melhorado, um estudo para otimização de processos agrega valor
+            ao seu produto final, seja ele redução de custos, redução de matéria-prima ou até mesmo redução do tempo
+            gasto para uma determinada atividade. Segundo Scartezini (2009), um processo contém tarefas interligadas
+            logicamente de forma a se atingir um objetivo e quando conseguimos aplicar melhorias, estamos transformando
+            o produto final deste processo para obter sucesso que é um fator crítico para se chegar a excelência.
+            “Sua META é ser o melhor naquilo que você faz. Não existem alternativas” (Vicente Falconi).</p>
+          <p class="text-muted">
+            Hoje no mercado existem muitas ferramentas para a construção de memoriais descritivos, porém, poucas opções
+            para fazer o inverso.  Com isso a construção da aplicação foi uma escolha devido à falta de ferramentas e a
+            importância para agilizar o processo, tendo grande público para sua utilização.</p>
+          <p class="text-muted">
+            Segundo Cavalcante (2015), tem-se notado um crescente interesse pela informação geográfica nos últimos anos,
+            e cada vez mais utilizada para diversos fins  como as geociências, economia e gestão, sociologia e saúde,
+            engenharias, planejamento e monitoramento espacial, entre outras. A possibilidade de utilizar informação
+            georreferenciada, permite a correlação de variáveis distintas, justificando o interesse pelo SIG. Também
+            vale ressaltar que os SIGs estão presentes em grande parte dos serviços do setor público e privado, e está
+            cada vez mais se tornando uma ferramenta acessível a todos e não apenas a setores especializados.</p>
+          <p class="text-muted">
+            A biblioteca RegEx foi escolhida devido sua capacidade de identificar cadeias de caracteres de interesse
+            que apresentem características particulares, oque se mostrou perfeito para encontrar os padrões de
+            coordenadas. Com a experiência adquirida nesta pesquisa, a aplicação deverá incorporar novos módulos
+            ampliando e consolidando sua utilização que devido à área de atuação tem muito a ser explorado.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Colaboradores -->
+  <section class="bg-light page-section" id="colaboradores">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">Colaboradores</h2>
+          <h3 class="section-subheading text-muted">Se quiser ir longe, vá em grupo.</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6" align="center">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="{% static '../static/memoriais/img/colaboradores/IMG03.png' %}" alt="">
+            <h4>Janine Prates</h4>
+            <p class="text-muted">
+              Mestre em Tecnologia da Informação Aplicada a Biologia Computacional - Doutoranda em Ciência de Dados
+            </p>
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="https://www.linkedin.com/in/janine-prates-690b6043/" target="_blank">
+                  <i class="fab fa-linkedin-in" style="padding: 15px"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.instagram.com/jfpto/?hl=pt-br" target="_blank">
+                  <i class="fab fa-instagram" style="padding: 15px"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-6" align="center">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="{% static '../static/memoriais/img/colaboradores/IMG04.png' %}" alt="">
+            <h4>Bruno Melo</h4>
+            <p class="text-muted">
+              Engenheiro Agrimensor e Cartógrafo - Pós Graduado em Geoprocessamento e Georreferenciamento
+            </p>
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="https://www.linkedin.com/in/bruno-melo-campos-b7715b150/" target="_blank">
+                  <i class="fab fa-linkedin-in" style="padding: 15px"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.instagram.com/bruno.melocampos/?hl=pt-br" target="_blank">
+                  <i class="fab fa-instagram" style="padding: 15px"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-8 mx-auto text-center">
+          <p class="large text-muted">"Coisas incríveis no mundo dos negócios nunca são feitas por uma única pessoa,
+                                      e sim por uma equipe, pois na longa história da humanidade, aqueles que aprenderam
+                                      a colaborar e inovar mais efetivamente têm prevalecido"</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section class="page-section" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">Entre em contato</h2>
+          <h3 class="section-subheading text-muted">Deixe seu comentário para nos ajudar a melhorar
+                                                    cada vez mais o projeto.</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+
+          {% load meusFiltros %}
+
+          <form method="post" name="contato">
+
+            {% csrf_token %}
+
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+
+                  <div>
+                    {{ form.nome.errors }}
+                    {{ form.nome | addAttr:"class:form-control,name:nome,type:text,placeholder:Seu Nome *,required:required,data-validation-required-message:Insira seu nome." }}
+                  </div>
+                  <!--
+                  <input class="form-control" id="name" type="text" placeholder="Seu Nome *" required="required"
+                         data-validation-required-message="Insira seu nome.">-->
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div class="form-group">
+                  <div>
+                    {{ form.email.errors }}
+                    {{ form.email | addAttr:"class:form-control,name:email,type:email,placeholder:Seu email *,data-validation-required-message:Insira seu e-mail." }}
+                  </div>
+                  <!--
+                  <input class="form-control" id="email" type="email" placeholder="Seu Email *" required="required"
+                         data-validation-required-message="Insira seu e-mail.">-->
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div class="form-group">
+                  <div>
+                    <!--<p class="section-subheading text-muted">Qual sua opinião sobre o projeto</p>-->
+                    {{ form.opiniao.errors }}
+                    {{ form.opiniao | addAttr:"class:form-control,id:opcao,name:opcao,required:required,data-validation-required-message:Insira sua opinião." }}
+                  </div>
+                  <!--
+                  <select class="form-control" style="height: 65px" id="opcao" required="required"
+                          data-validation-required-message="Insira sua opinião.">
+                    <option value=""> - Deixe sua opinião sobre o projeto -</option>
+                    <option value="bom">Bom</option>
+                    <option value="medio">Médio</option>
+                    <option value="ruim">Ruim</option>
+                  </select>-->
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <div>
+                    {{ form.mensagem.errors }}
+                    {{ form.mensagem | addAttr:"class:form-control,name:mensagem,type:textarea,id:message,placeholder:Sua Mensagem" }}
+                  </div>
+                  <!--
+                  <textarea class="form-control" id="message" placeholder="Sua Menssagem"></textarea>-->
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="col-lg-12 text-center">
+                <div id="SSSsuccess"></div>
+                <button id="SSSsendMessageButton" class="btn btn-warning btn-xl" type="submit">Enviar Mensagem</button>
+              </div>
+            </div>
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="copyright">
+        Copyright &copy; 2020 - MD Rebuilder
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="{% static '../static/memoriais/js/jquery/jquery.min.js' %}"></script>
+  <script src="{% static '../static/memoriais/js/bootstrap.bundle.min.js' %}"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="{% static '../static/memoriais/js/jquery-easing/jquery.easing.min.js' %}"></script>
+
+  <!-- Contact form JavaScript -->
+  <script src="{% static '../static/memoriais/js/jqBootstrapValidation.js' %}"></script>
+  <script src="{% static '../static/memoriais/js/contact_me.js' %}"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="{% static '../static/memoriais/js/agency.min.js' %}"></script>
+
+</body>
+
+</html>

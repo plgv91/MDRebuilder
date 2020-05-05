@@ -1,0 +1,1 @@
+web: gunicorn MDRebuilder.wsgi:django-memoriais --log-file -
